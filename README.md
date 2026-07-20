@@ -1,9 +1,5 @@
 # Swedish Women's Suffrage Petitioners, 1913–14
 
-![Swedish suffragists at the Sixth Conference of the International Woman Suffrage Alliance, Stockholm, 1911](assets/suffrage-petitioners-cover.png)
-
-*Swedish suffragists and their petition signatures.*
-
 This repository contains transcribed and harmonized data from the nationwide Swedish petition for women's political suffrage and eligibility for office in 1913–14. The petition was organized by the National Association for Women's Suffrage in Sweden (*Landsföreningen för kvinnans politiska rösträtt*, LKPR) and submitted to the Swedish Parliament in 1914.
 
 The source material was digitized through *I demokratins namn: kvinnorna som krävde rösträtt* on [FromThePage.com](https://fromthepage.com/), using scanned archival volumes from the National Archives of Sweden. The [source images and collaborative transcriptions are available here](https://fromthepage.com/riksarkivet/i-demokratins-namn).
@@ -11,6 +7,10 @@ The source material was digitized through *I demokratins namn: kvinnorna som kr�
 Version 0.1 contains 18,733 petition lists and 350,092 petitioners after removing reviewed duplicate scans, blank source pages, and crossed-out or non-person entries.
 
 Initial public release from the June 17, 2026 FromThePage export.
+
+<img src="assets/suffrage-petitioners-cover.png" alt="Swedish suffragists at the Sixth Conference of the International Woman Suffrage Alliance, Stockholm, 1911" width="720">
+
+*Swedish suffragists and their petition signatures.*
 
 ## Citation
 
