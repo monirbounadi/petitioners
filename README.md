@@ -8,9 +8,11 @@ Version 0.1 contains 18,733 petition lists and 350,092 petitioners after removin
 
 Initial public release from the June 17, 2026 FromThePage export.
 
-<img src="assets/suffrage-petitioners-cover.png" alt="Swedish suffragists at the Sixth Conference of the International Woman Suffrage Alliance, Stockholm, 1911" width="720">
+<p align="center">
+  <img src="assets/suffrage-petitioners-cover.png" alt="Swedish suffragists at the Sixth Conference of the International Woman Suffrage Alliance, Stockholm, 1911" width="720">
+</p>
 
-*Swedish suffragists and their petition signatures.*
+<p align="center"><em>Swedish suffragists and their petition signatures.</em></p>
 
 ## Citation
 
