@@ -12,7 +12,7 @@ Initial public release from the June 17, 2026 FromThePage export.
   <img src="assets/suffrage-petitioners-cover.png" alt="Swedish suffragists at the Sixth Conference of the International Woman Suffrage Alliance, Stockholm, 1911" width="720">
 </p>
 
-<p align="center"><em>Swedish suffragists and their petition signatures.</em></p>
+<p align="center"><em>Swedish suffragists in 1911 and their petition signatures in 1913–14</em></p>
 
 ## Citation
 
