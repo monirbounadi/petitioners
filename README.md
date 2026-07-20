@@ -2,7 +2,7 @@
 
 ![Swedish suffragists at the Sixth Conference of the International Woman Suffrage Alliance, Stockholm, 1911](assets/suffrage-petitioners-cover.png)
 
-*Image source: [Mattias Folkestad's thesis](https://su.diva-portal.org/smash/get/diva2:2045282/FULLTEXT01.pdf). Reproduction: Eva Andén's collection A 67:6, KvinnSam, Göteborgs universitetsbibliotek; layout by Hanna Weitz. The photograph was taken in Stockholm during the Sixth Conference of the International Woman Suffrage Alliance, 12–17 June 1911. The signatures in the background come from the 1913–14 mass petition and were written by women in the photo: Märta Tamm, Lydia Mattsson, Beth Hennings, Elin Odencrantz, Karin Pettersson, Alfhild Lamm, Barbro Wästberg, Elin Svanström, Eva Andén, Emmy Helander, Ida Fischer, and Maja Cronquist.*
+*Swedish suffragists and their petition signatures.*
 
 This repository contains transcribed and harmonized data from the nationwide Swedish petition for women's political suffrage and eligibility for office in 1913–14. The petition was organized by the National Association for Women's Suffrage in Sweden (*Landsföreningen för kvinnans politiska rösträtt*, LKPR) and submitted to the Swedish Parliament in 1914.
 
@@ -135,6 +135,12 @@ merge m:1 image_id using `lists', keep(master match) nogen
 The data are released under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) public-domain dedication. Scientific citation is appreciated.
 
 The bundled SwedPop PDF is third-party documentation included unchanged for reproducibility. It remains attributable to SwedPop/CEDAR and its named author.
+
+## Image credits
+
+Image source: [Mattias Folkestad's thesis](https://su.diva-portal.org/smash/get/diva2:2045282/FULLTEXT01.pdf). Reproduction: Eva Andén's collection A 67:6, KvinnSam, Göteborgs universitetsbibliotek; layout by Hanna Weitz.
+
+The photograph was taken in Stockholm during the Sixth Conference of the International Woman Suffrage Alliance, 12–17 June 1911. The signatures in the background come from the 1913–14 mass petition and were written by women in the photo: Märta Tamm, Lydia Mattsson, Beth Hennings, Elin Odencrantz, Karin Pettersson, Alfhild Lamm, Barbro Wästberg, Elin Svanström, Eva Andén, Emmy Helander, Ida Fischer, and Maja Cronquist.
 
 ## Version history
 
