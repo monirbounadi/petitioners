@@ -84,7 +84,7 @@ All files are UTF-8 encoded. Empty CSV cells represent missing values.
 
 ### Code examples
 
-<details open>
+<details>
 <summary>Python</summary>
 
 ```python
