@@ -6,7 +6,7 @@ The source material was digitized through *I demokratins namn: kvinnorna som kr√
 
 Version 0.1 contains 18,733 petition lists and 350,092 petitioners after removing reviewed duplicate scans, blank source pages, and crossed-out or non-person entries.
 
-This is an initial public research release and may be updated as additional transcription checks are completed.
+Initial public release from the June 17, 2026 FromThePage export.
 
 ## Citation
 
@@ -44,10 +44,10 @@ Transcribed titles and occupations were matched to a SwedPop code-list workbook 
 
 Key measurement notes:
 
-- `entry_id` identifies a petitioner entry in this release. It should not be used to link the same person across petition lists.
+- `entry_id` identifies a petitioner entry in this release. It is not a cross-list person identifier: a woman could sign more than one list, even though canvassers tried to remove duplicate signatures.
 - `name_count` is a reviewed list-level count and need not equal the number of petitioner entries in `individuals.csv`.
 - Coordinates refer to the locality heading on the petition list, not to individual street addresses.
-- Missing contributions are unknown, not zero.
+- Blank contribution fields are coded as zero. Ambiguous, crossed-out, or non-currency contribution entries are left missing.
 - HISCO code `99999` denotes an unclear occupation following SwedPop. Codes `-1` and `-2` denote no recorded current occupation and explicit absence of occupation, respectively.
 
 ## Getting started
@@ -83,8 +83,6 @@ Important variables in `individuals.csv` include:
 All files are UTF-8 encoded. Empty CSV cells represent missing values.
 
 ### Code examples
-
-Run these examples from the repository root.
 
 <details open>
 <summary>Python</summary>
@@ -138,4 +136,4 @@ The bundled SwedPop PDF is third-party documentation included unchanged for repr
 
 ### Version 0.1
 
-Initial public research release based on the June 17, 2026 export of the first set of complete transcriptions from FromThePage.
+Initial public release from the June 17, 2026 FromThePage export.
