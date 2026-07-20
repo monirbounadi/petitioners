@@ -1,4 +1,4 @@
-# Swedish Women's Suffrage Petition Signatories, 1913–14
+# Swedish Women's Suffrage Petitioners, 1913–14
 
 ## Overview
 
@@ -14,7 +14,7 @@ If you use this data, please cite:
 
 ```bibtex
 @dataset{bounadi_folkestad_2026_suffrage,
-  title   = {Swedish Women's Suffrage Petition Signatories, 1913–14},
+  title   = {Swedish Women's Suffrage Petitioners, 1913–14},
   author  = {Bounadi, Monir and Folkestad, Mattias},
   year    = {2026},
   version = {0.1}
@@ -44,7 +44,7 @@ Occupational titles were matched to a SwedPop code-list workbook supplied to the
 
 Key measurement notes:
 
-- `entry_id` identifies a row in this release, not a unique person.
+- `entry_id` identifies a row or petitioner in this release. It should not be used to link the same person across petition lists.
 - `name_count` is a reviewed list-level count and need not equal the number of rows in `individuals.csv`.
 - Coordinates refer to the locality heading on the petition list, not to individual street addresses.
 - Missing contributions are unknown, not zero.
@@ -72,7 +72,7 @@ Important variables in `lists.csv` include:
 
 Important variables in `individuals.csv` include:
 
-- `entry_id`: row identifier in this release.
+- `entry_id`: row or petitioner identifier in this release.
 - `first_name_transcribed`, `last_name_transcribed`: names as transcribed.
 - `title_transcribed`, `occupation_transcribed`, `address_transcribed`: source fields as transcribed.
 - `title_harmonized`, `occupation_harmonized`: harmonized title and occupation strings.
