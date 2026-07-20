@@ -6,6 +6,8 @@ The source material was digitized through *I demokratins namn: kvinnorna som kr√
 
 Version 0.1 contains 18,733 petition lists and 350,092 petitioners after removing reviewed duplicate scans, blank source pages, and crossed-out or non-person entries.
 
+This is an initial public research release and may be updated as additional transcription checks are completed.
+
 ## Citation
 
 If you use this data, please cite:
