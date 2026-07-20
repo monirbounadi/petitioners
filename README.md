@@ -1,7 +1,5 @@
 # Swedish Women's Suffrage Petitioners, 1913–14
 
-## Overview
-
 This repository contains transcribed and harmonized data from the nationwide Swedish petition for women's political suffrage and eligibility for office in 1913–14. The petition was organized by the National Association for Women's Suffrage in Sweden (*Landsföreningen för kvinnans politiska rösträtt*, LKPR) and submitted to the Swedish Parliament in 1914.
 
 The source material was digitized through *I demokratins namn: kvinnorna som krävde rösträtt* on [FromThePage.com](https://fromthepage.com/), using scanned archival volumes from the National Archives of Sweden. The [source images and collaborative transcriptions are available here](https://fromthepage.com/riksarkivet/i-demokratins-namn).
@@ -29,7 +27,7 @@ If you use this data, please cite:
 - Includes harmonized counties, historical localities, and coordinates.
 - Harmonizes contributions in Swedish kronor (SEK).
 - Infers IPUMS-style marital status from titles.
-- Classifies occupations using SwedPop HISCO codes.
+- Classifies occupations using SwedPop HISCO codes inferred from transcribed titles and occupations.
 
 ## Data construction
 
@@ -38,9 +36,9 @@ The data were built from a June 17, 2026 export of completed FromThePage transcr
 1. Combine and clean the FromThePage CSV exports.
 2. Preserve all transcribed fields after Unicode normalization and whitespace trimming.
 3. Harmonize counties, localities, name counts, contributions, titles, occupations, marital status, and coordinates.
-4. Classify occupations with the SwedPop HISCO coding scheme.
+4. Classify occupations with the SwedPop HISCO coding scheme using both transcribed titles and occupations.
 
-Occupational titles were matched to a SwedPop code-list workbook supplied to the authors. The workbook is not redistributed here. The public SwedPop documentation used for coding is included unchanged in `documentation/hisco/`.
+Transcribed titles and occupations were matched to a SwedPop code-list workbook supplied to the authors. The workbook is not redistributed here. The public SwedPop documentation used for coding is included unchanged in `documentation/hisco/`.
 
 Key measurement notes:
 
@@ -76,7 +74,7 @@ Important variables in `individuals.csv` include:
 - `first_name_transcribed`, `last_name_transcribed`: names as transcribed.
 - `title_transcribed`, `occupation_transcribed`, `address_transcribed`: source fields as transcribed.
 - `title_harmonized`, `occupation_harmonized`: harmonized title and occupation strings.
-- `marital_status`: IPUMS-style marital-status code.
+- `marital_status`: IPUMS-style marital-status code (`1` single/never married, `2` married/in union, `3` separated/divorced/spouse absent, `4` widowed, `9` unknown/missing).
 - `contribution_sek`: harmonized individual contribution in SEK.
 - `hisco_code`, `hisco_label`, `hisco_classification`: SwedPop HISCO assignment.
 
