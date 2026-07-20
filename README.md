@@ -12,7 +12,7 @@ Initial public release from the June 17, 2026 FromThePage export.
   <img src="assets/suffrage-petitioners-cover.png" alt="Swedish suffragists at the Sixth Conference of the International Woman Suffrage Alliance, Stockholm, 1911" width="720">
 </p>
 
-<p align="center"><em>Swedish suffragists in 1911 and their petition signatures in 1913–14</em></p>
+<p align="center"><em>Swedish suffragists in 1911, with their 1913–14 petition signatures superimposed</em></p>
 
 ## Citation
 
@@ -142,7 +142,7 @@ The bundled SwedPop PDF is third-party documentation included unchanged for repr
 
 Image source: [Folkestad, Mattias. *Learning to Participate: The Effects of the First Female Teachers*. PhD thesis, Stockholm University, 2026](https://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-253369).
 
-The reproduction is from Eva Andén's collection A 67:6, KvinnSam, Göteborgs universitetsbibliotek. It shows Stockholm during the Sixth Conference of the International Woman Suffrage Alliance, 12–17 June 1911. The signatures in the background are from the 1913–14 mass petition and were written by women in the image: Märta Tamm, Lydia Mattsson, Beth Hennings, Elin Odencrantz, Karin Pettersson, Alfhild Lamm, Barbro Wästberg, Elin Svanström, Eva Andén, Emmy Helander, Ida Fischer, and Maja Cronquist.
+The reproduction is from Eva Andén's collection A 67:6, KvinnSam, Göteborgs universitetsbibliotek. It shows Stockholm during the Sixth Conference of the International Woman Suffrage Alliance, 12–17 June 1911. The superimposed signatures are from the 1913–14 mass petition and were written by women in the image: Märta Tamm, Lydia Mattsson, Beth Hennings, Elin Odencrantz, Karin Pettersson, Alfhild Lamm, Barbro Wästberg, Elin Svanström, Eva Andén, Emmy Helander, Ida Fischer, and Maja Cronquist.
 
 ## Version history
 
