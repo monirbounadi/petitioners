@@ -140,9 +140,9 @@ The bundled SwedPop PDF is third-party documentation included unchanged for repr
 
 ## Image credits
 
-Image source: [Mattias Folkestad's thesis](https://su.diva-portal.org/smash/get/diva2:2045282/FULLTEXT01.pdf). Reproduction: Eva Andén's collection A 67:6, KvinnSam, Göteborgs universitetsbibliotek; layout by Hanna Weitz.
+Image source: [Folkestad, Mattias. *Learning to Participate: The Effects of the First Female Teachers*. PhD thesis, Stockholm University, 2026](https://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-253369).
 
-The photograph was taken in Stockholm during the Sixth Conference of the International Woman Suffrage Alliance, 12–17 June 1911. The signatures in the background come from the 1913–14 mass petition and were written by women in the photo: Märta Tamm, Lydia Mattsson, Beth Hennings, Elin Odencrantz, Karin Pettersson, Alfhild Lamm, Barbro Wästberg, Elin Svanström, Eva Andén, Emmy Helander, Ida Fischer, and Maja Cronquist.
+The reproduction is from Eva Andén's collection A 67:6, KvinnSam, Göteborgs universitetsbibliotek. It shows Stockholm during the Sixth Conference of the International Woman Suffrage Alliance, 12–17 June 1911. The signatures in the background are from the 1913–14 mass petition and were written by women in the image: Märta Tamm, Lydia Mattsson, Beth Hennings, Elin Odencrantz, Karin Pettersson, Alfhild Lamm, Barbro Wästberg, Elin Svanström, Eva Andén, Emmy Helander, Ida Fischer, and Maja Cronquist.
 
 ## Version history
 
