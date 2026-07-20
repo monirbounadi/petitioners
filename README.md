@@ -82,11 +82,12 @@ Important variables in `individuals.csv` include:
 
 All files are UTF-8 encoded. Empty CSV cells represent missing values.
 
-## Code examples
+### Code examples
 
 Run these examples from the repository root.
 
-Python
+<details open>
+<summary>Python</summary>
 
 ```python
 import pandas as pd
@@ -97,7 +98,10 @@ individuals = pd.read_csv("data/individuals.csv")
 data = individuals.merge(lists, on="image_id", how="left", validate="many_to_one")
 ```
 
-R
+</details>
+
+<details>
+<summary>R</summary>
 
 ```r
 lists <- read.csv("data/lists.csv", fileEncoding = "UTF-8")
@@ -106,7 +110,10 @@ individuals <- read.csv("data/individuals.csv", fileEncoding = "UTF-8")
 data <- merge(individuals, lists, by = "image_id", all.x = TRUE, sort = FALSE)
 ```
 
-Stata
+</details>
+
+<details>
+<summary>Stata</summary>
 
 ```stata
 import delimited "data/lists.csv", clear varnames(1) encoding("utf-8")
@@ -118,6 +125,8 @@ import delimited "data/individuals.csv", clear varnames(1) encoding("utf-8")
 isid entry_id
 merge m:1 image_id using `lists', keep(master match) nogen
 ```
+
+</details>
 
 ## License
 
