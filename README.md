@@ -6,7 +6,7 @@ This repository contains transcribed and harmonized data from the nationwide Swe
 
 The source material was digitized through *I demokratins namn: kvinnorna som krävde rösträtt* on [FromThePage.com](https://fromthepage.com/), using scanned archival volumes from the National Archives of Sweden. The [source images and collaborative transcriptions are available here](https://fromthepage.com/riksarkivet/i-demokratins-namn).
 
-Version 0.1 contains 18,733 petition lists and 350,092 transcribed rows after removing reviewed duplicate scans, blank source pages, and crossed-out or non-person rows.
+Version 0.1 contains 18,733 petition lists and 350,092 petitioners after removing reviewed duplicate scans, blank source pages, and crossed-out or non-person entries.
 
 ## Citation
 
@@ -24,7 +24,7 @@ If you use this data, please cite:
 ## Data features
 
 - Covers roughly 350,000 signatures, about 18 percent of women aged over 18 in Sweden at the time.
-- Provides petition-list and row-level files linked by `image_id`.
+- Provides petition-list and petitioner-level files linked by `image_id`.
 - Retains cleaned transcriptions alongside harmonized research variables.
 - Includes harmonized counties, historical localities, and coordinates.
 - Harmonizes contributions in Swedish kronor (SEK).
@@ -44,8 +44,8 @@ Occupational titles were matched to a SwedPop code-list workbook supplied to the
 
 Key measurement notes:
 
-- `entry_id` identifies a row or petitioner in this release. It should not be used to link the same person across petition lists.
-- `name_count` is a reviewed list-level count and need not equal the number of rows in `individuals.csv`.
+- `entry_id` identifies a petitioner entry in this release. It should not be used to link the same person across petition lists.
+- `name_count` is a reviewed list-level count and need not equal the number of petitioner entries in `individuals.csv`.
 - Coordinates refer to the locality heading on the petition list, not to individual street addresses.
 - Missing contributions are unknown, not zero.
 - HISCO code `99999` denotes an unclear occupation following SwedPop. Codes `-1` and `-2` denote no recorded current occupation and explicit absence of occupation, respectively.
@@ -54,10 +54,10 @@ Key measurement notes:
 
 Download the repository and use the two CSV files in `data/`:
 
-| File | Unit of observation | Rows |
+| File | Unit of observation | Observations |
 |---|---|---:|
 | `data/lists.csv` | Petition list | 18,733 |
-| `data/individuals.csv` | Row on petition list | 350,092 |
+| `data/individuals.csv` | Petitioner | 350,092 |
 
 The files merge many-to-one using `image_id`.
 
@@ -72,7 +72,7 @@ Important variables in `lists.csv` include:
 
 Important variables in `individuals.csv` include:
 
-- `entry_id`: row or petitioner identifier in this release.
+- `entry_id`: petitioner-entry identifier in this release.
 - `first_name_transcribed`, `last_name_transcribed`: names as transcribed.
 - `title_transcribed`, `occupation_transcribed`, `address_transcribed`: source fields as transcribed.
 - `title_harmonized`, `occupation_harmonized`: harmonized title and occupation strings.
