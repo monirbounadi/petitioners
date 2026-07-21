@@ -53,8 +53,10 @@ Key measurement notes:
 - `entry_id` identifies a petitioner entry in this release. It is not a cross-list person identifier: a woman could sign more than one list, even though canvassers tried to remove duplicate signatures.
 - `name_count` is a reviewed list-level count and need not equal the number of petitioner entries in `individuals.csv`.
 - Coordinates refer to the locality heading on the petition list, not to individual street addresses.
-- Blank contribution fields are coded as zero. Ambiguous, crossed-out, or non-currency contribution entries are left missing.
-- HISCO code `99999` denotes an unclear occupation following SwedPop. Codes `-1` and `-2` denote no recorded current occupation and explicit absence of occupation, respectively.
+- Blank individual contribution fields are coded as zero. Ambiguous, crossed-out, or non-currency contribution entries are left missing.
+- Some petition lists record öre amounts in the kronor field. These are retained as transcribed and flagged in `contribution_kronor_field_interpreted_as_ore`; a small number of other source-reviewed contribution cases are flagged in `contribution_source`.
+- `total_contribution_sek` uses the transcribed list total when available; otherwise it uses the sum of individual contributions when that sum is positive.
+- HISCO code `99999` denotes an unclear occupation following SwedPop. Code `-1` denotes no recorded current occupation.
 
 ## Getting started
 
@@ -74,6 +76,7 @@ Important variables in `lists.csv` include:
 - `county`, `place`: harmonized county and locality.
 - `name_count`: harmonized list-level count of names.
 - `total_contribution_sek`: harmonized list contribution in SEK.
+- `total_contribution_source`: source of the harmonized list contribution.
 - `place_latitude`, `place_longitude`: locality coordinates.
 
 Important variables in `individuals.csv` include:
@@ -84,6 +87,8 @@ Important variables in `individuals.csv` include:
 - `title_harmonized`, `occupation_harmonized`: harmonized title and occupation strings.
 - `marital_status`: IPUMS-style marital-status code (`1` single/never married, `2` married/in union, `3` separated/divorced/spouse absent, `4` widowed, `9` unknown/missing).
 - `contribution_sek`: harmonized individual contribution in SEK.
+- `contribution_source`: source of the harmonized individual contribution.
+- `contribution_kronor_field_interpreted_as_ore`: equals 1 when a value transcribed in the kronor field is interpreted as öre after source review.
 - `hisco_code`, `hisco_label`, `hisco_classification`: SwedPop HISCO assignment.
 
 All files are UTF-8 encoded. Empty CSV cells represent missing values.
