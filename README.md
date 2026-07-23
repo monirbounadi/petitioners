@@ -1,6 +1,8 @@
 # Swedish Women's Suffrage Petitioners, 1913–14
 
-This repository contains transcribed and harmonized data from the nationwide Swedish petition for women's political suffrage and eligibility for office in 1913–14. The petition was organized by the National Association for Women's Suffrage in Sweden (*Landsföreningen för kvinnans politiska rösträtt*) and submitted to the Swedish Parliament in 1914.
+This repository contains transcribed and harmonized data from the nationwide Swedish petition for women's political suffrage and eligibility for office in 1913–14.
+
+In September 1921, Sweden held its first parliamentary election in which women and men could both vote and stand for office. The reform followed a long political campaign led by the National Association for Women's Suffrage in Sweden (*Landsföreningen för kvinnans politiska rösträtt*, LKPR), which coordinated local suffrage associations across the country. In 1913, LKPR initiated a mass petition signed by Swedish women demanding political suffrage. Through extensive organizing, the association submitted more than 351,000 signatures to the Swedish Parliament in 1914, corresponding to roughly 18 percent of women aged 18 or older in Sweden at the time.
 
 The source material was digitized through *I demokratins namn: kvinnorna som krävde rösträtt* on FromThePage, using scanned archival volumes from the National Archives of Sweden. The [source images and collaborative transcriptions are available here](https://fromthepage.com/riksarkivet/i-demokratins-namn).
 
@@ -50,6 +52,7 @@ Transcribed titles and occupations were matched to a SwedPop code-list workbook 
 
 Key measurement notes:
 
+- The petition was intended for women only, and only women aged 18 or older were eligible to sign.
 - `entry_id` identifies a petitioner entry in this release. It is not a cross-list person identifier: a woman could sign more than one list, even though canvassers tried to remove duplicate signatures.
 - `name_count` is a reviewed list-level count and need not equal the number of petitioner entries in `individuals.csv`.
 - Coordinates refer to the locality heading on the petition list, not to individual street addresses.
